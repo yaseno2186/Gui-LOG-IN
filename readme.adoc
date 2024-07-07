@@ -1,0 +1,134 @@
+= Simple Login GUI Application
+
+== Overview
+
+This project is a simple GUI application written in Java using Swing. It provides a basic login form with fields for a username and password, and buttons for submission and exit.
+
+== Features
+
+* Input fields for username and password.
+* Validation of username and password input.
+* Feedback message for successful login or input errors.
+* Exit button to close the application.
+
+== Prerequisites
+
+* Java Development Kit (JDK) 8 or higher.
+
+== Running the Application
+
+1. Compile the Java source code:
+
+    ```
+    javac Gui.java
+    ```
+
+2. Run the compiled Java program:
+
+    ```
+    java Gui
+    ```
+
+3. The GUI window will appear, allowing you to enter a username and password.
+
+== Application Flow
+
+1. Enter a username in the "Name" field. The username must not be empty and must only contain alphanumeric characters.
+2. Enter a password in the "Password" field. The password must also not be empty and must only contain alphanumeric characters.
+3. Click the "Enter" button to submit the login form. If the input is valid, a "Logged Successfully!" message will appear.
+4. Click the "Exit" button to close the application.
+
+== Code Structure
+
+* `Gui.java`: The main class containing the GUI logic.
+* `Gui()`: The constructor that sets up the GUI components and their behavior.
+* `name`: A JTextField for the username input.
+* `pass`: A JPasswordField for the password input.
+* `msg`: A JLabel for displaying messages to the user.
+* `error`: A boolean flag indicating if there is an input error.
+* `main(String[] args)`: The main method that starts the application.
+* Input validation for the username and password fields.
+* Action listeners for the "Enter" and "Exit" buttons.
+
+== Example
+
+Upon running the application, you will see a window similar to this:
+
+
+Here is a README.adoc file for your Java GUI project:
+
+adoc
+Copy code
+= Simple Login GUI Application
+
+== Overview
+
+This project is a simple GUI application written in Java using Swing. It provides a basic login form with fields for a username and password, and buttons for submission and exit.
+
+== Features
+
+* Input fields for username and password.
+* Validation of username and password input.
+* Feedback message for successful login or input errors.
+* Exit button to close the application.
+
+== Prerequisites
+
+* Java Development Kit (JDK) 8 or higher.
+
+== Running the Application
+
+1. Compile the Java source code:
+
+    ```
+    javac Gui.java
+    ```
+
+2. Run the compiled Java program:
+
+    ```
+    java Gui
+    ```
+
+3. The GUI window will appear, allowing you to enter a username and password.
+
+== Application Flow
+
+1. Enter a username in the "Name" field. The username must not be empty and must only contain alphanumeric characters.
+2. Enter a password in the "Password" field. The password must also not be empty and must only contain alphanumeric characters.
+3. Click the "Enter" button to submit the login form. If the input is valid, a "Logged Successfully!" message will appear.
+4. Click the "Exit" button to close the application.
+
+== Code Structure
+
+* `Gui.java`: The main class containing the GUI logic.
+* `Gui()`: The constructor that sets up the GUI components and their behavior.
+* `name`: A JTextField for the username input.
+* `pass`: A JPasswordField for the password input.
+* `msg`: A JLabel for displaying messages to the user.
+* `error`: A boolean flag indicating if there is an input error.
+* `main(String[] args)`: The main method that starts the application.
+* Input validation for the username and password fields.
+* Action listeners for the "Enter" and "Exit" buttons.
+
+== Example
+
+Upon running the application, you will see a window similar to this:
+********
+Name
+
+ [ your_name ]
+ Password
+ [ your_password ]
+ [Enter]    [Exit]
+********
+
+Enter your username and password, then click "Enter" to log in or "Exit" to close the application.
+
+== Author
+
+* Yass Almardod
+
+== License
+
+This project is licensed under the MIT License - see the LICENSE file for details.

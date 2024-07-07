@@ -2,12 +2,12 @@ import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
 
-public class Main extends JFrame {
+public class Gui extends JFrame {
     private JTextField name;
     private JPasswordField pass;
     private JLabel msg;
     private boolean error;
-    public Main() {
+    public Gui() {
         super("Frame");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         JPanel panel = new JPanel();
@@ -30,9 +30,6 @@ public class Main extends JFrame {
         JButton exit = new JButton("Exit");
         panel1.add(enter);
         panel1.add(exit);
-
-        //Coloring
-
 
         //Implementing the Panels in JFrame
         add(panel, BorderLayout.NORTH);
@@ -87,5 +84,5 @@ public class Main extends JFrame {
         setVisible(true);
     }
     public static void main(String[] args) {
-       new Main();}
+       new Gui();}
 }
